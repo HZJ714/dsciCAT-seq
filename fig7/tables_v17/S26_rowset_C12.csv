@@ -1,0 +1,19 @@
+gene,drug,class,tier_audited,label,MOA,MS,floor,max_rate_A4,max_rate_A7
+S1PR5,,1 lineage + mature-OL,T1,1.0,1.0,1.0,False,7.723381438801846,8.748929692702882
+IFNAR2,interferon beta-1a/1b,6 OPC>OL but not lineage-enriched,T1,0.0,2.0,2.0,False,31.7444279346211,51.83946488294314
+S1PR2,,6 OPC>OL but not lineage-enriched,T2,0.0,0.0,0.0,False,2.6750306438820393,2.8245518739815316
+BTK,,4 non-lineage restricted,T2,0.0,1.0,0.0,False,13.169036587314267,14.207650273224044
+CD40LG,frexalimab,4 non-lineage restricted,T2,0.0,2.0,0.0,False,2.3551577955723033,3.2911392405063293
+CD52,,4 non-lineage restricted,T1,1.0,1.0,1.0,False,4.804521902967498,5.3164556962025316
+DCK,,4 non-lineage restricted,T1,2.0,2.0,1.0,False,11.13224368499257,6.869633099141296
+ITGA4,,4 non-lineage restricted,T1,1.0,1.0,1.0,False,35.280263777673106,38.734177215189874
+MS4A1,,4 non-lineage restricted,T1,1.0,1.0,1.0,False,4.145077720207254,3.2911392405063293
+S1PR1,,4 non-lineage restricted,T1,1.0,1.0,1.0,False,7.643509206250967,19.063545150501675
+S1PR3,,4 non-lineage restricted,T2,0.0,0.0,0.0,False,7.374158384097468,4.632474592294965
+S1PR4,,4 non-lineage restricted,T2,0.0,0.0,0.0,False,2.4964672633066414,3.0379746835443036
+DHODH,,5 no contrast (ubiquitous or undetectable),T1,2.0,1.0,1.0,False,4.897473997028231,2.6755852842809364
+IFNAR1,,5 no contrast (ubiquitous or undetectable),T1,1.0,1.0,1.0,False,33.35512630014859,24.74916387959866
+MC2R,ACTH (repository corticotropin),5 no contrast (ubiquitous or undetectable),T1,0.0,1.0,1.0,True,0.06537890044576523,0.0038055370564170866
+NFE2L2,,5 no contrast (ubiquitous or undetectable),T1,0.0,0.0,1.0,False,35.90894517473549,41.88134270101484
+NR3C1,methylprednisolone / prednisone,5 no contrast (ubiquitous or undetectable),T1,0.0,2.0,2.0,False,73.09361069836552,52.508361204013376
+TOP2A,,5 no contrast (ubiquitous or undetectable),T1,0.0,1.0,2.0,False,0.2826189354686764,0.5063291139240507

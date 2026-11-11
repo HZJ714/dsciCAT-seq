@@ -1,0 +1,7 @@
+"channel","method","d1","n_oligo","n_opc","n_matched"
+"RNA","AUCell",0.00361747338423152,5827,1490,504
+"RNA","AddModuleScore",0.00948991965630235,5827,1490,504
+"gene_score","AUCell",0.00240584396882997,5827,1490,504
+"gene_score","AddModuleScore",0.00294766865079366,5827,1490,504
+"RNA","scDRS(norm_score)",0.397148274,5827,1490,504
+"gene_score","scDRS(norm_score)",0.26228787,5827,1490,504

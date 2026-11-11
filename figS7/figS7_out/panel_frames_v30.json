@@ -1,0 +1,72 @@
+{
+ "K": {
+  "file": "S7v30_K_keyband.pdf",
+  "w": 14.1314,
+  "h": 0.307,
+  "ink_x0": 0.05,
+  "ink_y0": 0.1032
+ },
+ "A": {
+  "file": "S7v30_A_ladder.pdf",
+  "w": 4.3828,
+  "h": 4.027,
+  "ink_x0": 0.0782,
+  "ink_y0": 0.1432
+ },
+ "B": {
+  "file": "S7v30_B_tightpool.pdf",
+  "w": 3.271,
+  "h": 3.2406,
+  "ink_x0": 0.04,
+  "ink_y0": 0.66
+ },
+ "C": {
+  "file": "S7v30_C_human_samedonor.pdf",
+  "w": 3.3243,
+  "h": 3.5672,
+  "ink_x0": 0.1204,
+  "ink_y0": 0.25
+ },
+ "D": {
+  "file": "S7v30_D_mouse_samenucleus.pdf",
+  "w": 2.9093,
+  "h": 3.5672,
+  "ink_x0": 0.0363,
+  "ink_y0": 0.25
+ },
+ "E": {
+  "file": "S7v30_E_ledger.pdf",
+  "w": 15.1716,
+  "h": 3.0006,
+  "ink_x0": 0.2425,
+  "ink_y0": 0.04
+ },
+ "RB": {
+  "file": "S7v30_RB_rankbar.pdf",
+  "w": 4.0608,
+  "h": 0.562,
+  "ink_x0": 0.05,
+  "ink_y0": 0.0632
+ },
+ "L2": {
+  "file": "S7v30_L2_axiskey.pdf",
+  "w": 8.3533,
+  "h": 0.307,
+  "ink_x0": 0.05,
+  "ink_y0": 0.1032
+ },
+ "F": {
+  "file": "S7v30_F_detection.pdf",
+  "w": 8.3491,
+  "h": 3.4885,
+  "ink_x0": 0.0928,
+  "ink_y0": 0.0832
+ },
+ "G": {
+  "file": "S7v30_G_donor.pdf",
+  "w": 6.162,
+  "h": 3.3628,
+  "ink_x0": 0.0885,
+  "ink_y0": 0.5832
+ }
+}

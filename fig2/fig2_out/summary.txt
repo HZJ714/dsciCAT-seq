@@ -1,0 +1,5 @@
+total=70643
+tech=10x:8438,dsciCAT-seq:47443,HT-scCAT-seq-HT:14762
+types=33
+copnfol=280
+markers=48

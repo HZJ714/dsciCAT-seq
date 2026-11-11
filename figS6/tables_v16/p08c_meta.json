@@ -1,0 +1,37 @@
+{
+ "spec": "P0-8c v3",
+ "source_score_file": "PASS_Multiple_sclerosis.full_score.gz",
+ "n_ctrl": 1000,
+ "add_one": true,
+ "pct_min": 10.0,
+ "cells": "203/490/1016/688/991/2574",
+ "enriched_pool": [
+  "MOL3/6",
+  "MOL6"
+ ],
+ "enriched_by_group_q": [
+  "MOL3/6",
+  "MOL6"
+ ],
+ "enriched_by_mwu_q": [
+  "MFOL",
+  "MOL2",
+  "MOL3",
+  "MOL3/6",
+  "MOL6"
+ ],
+ "ms_set_size": 1000,
+ "homolog_mapped": 881,
+ "rna_hit": 875,
+ "near_zero_dropped": {
+  "enriched_pool": 652,
+  "all6_pool": 652
+ },
+ "fdr_lt05": {
+  "enriched_pool": 100,
+  "all6_pool": 38
+ },
+ "anchor_intersection": 0,
+ "top20_two_pool_overlap": 13,
+ "note": "gene-level enrichment is a decomposition/concordance of the cell-level signal, not an independent replication; never say driver"
+}

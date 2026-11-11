@@ -1,0 +1,4 @@
+panel,query_library,target_library,query,best,r,bootstrap,bootstrap_n,bootstrap_total,opc_opc,oligo_oligo,n_query_types,n_target_types
+C,FY13,EL14,COP/NFOL,OPC,0.813,OPC,300,300,0.9524,0.9216,32,22
+D,FY14,EL14,COP/NFOL,OPC,0.8034,OPC,300,300,0.9612,0.9245,33,22
+E,FY13,FY14,COP/NFOL,COP/NFOL,0.986,COP/NFOL,300,300,0.997,0.9989,32,33

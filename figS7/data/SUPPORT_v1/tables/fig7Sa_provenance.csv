@@ -1,0 +1,7 @@
+study,geo,platform,species,condition,unit,n_case,n_ctrl,annotation_source,ol_nuclei,note
+A2 GSE277430,GSE277430,10x single-nucleus RNA-seq,human,MS / Ctrl,donor,13,8,authors' expert annotation (expertAnno.l1),"44,767 OL nuclei",21 donors; one opposite-sign donor 2006-041
+A3 GSE118257,GSE118257,10x single-nucleus RNA-seq,human,MS / Ctrl + lesion,donor,4,5,authors' annotation (FinalAnnotationTable Celltypes),n/a in delivered tables,"9 donors; lesion pairs n=2/lesion type (underpowered, descriptive only)"
+A4 GSE301908,GSE301908,10x single-nucleus RNA-seq,human,MS / Ctrl,library,14,3,authors' annotation (majorCluster),n/a in delivered tables,main analysis donor n=11; case-control uses 17 libraries (14 MS / 3 Ctrl) - both stated
+A7 GSE231585,GSE231585,10x single-nucleus RNA-seq,human,MS / Ctrl,donor,5,3,"ours: cluster-level, authors' published marker panel (no per-nucleus labels distributed)","52,555 OL / 1,841 OPC nuclei",self-annotated: main claims must not rest on it
+M GSE250589,GSE250589,"10x Multiome, paired RNA + ATAC",mouse (EAE),EAE / Ctrl,library,13,6,authors' annotation (annotation.csv.gz; MOL1+MOL2+MOL56 vs OPC+COP),18 mice in the paired multiome arm,"one study, two arms: RNA 28 libraries + matched multiome 18 mice"
+A6 GSE231584,GSE231584,"10x single-nucleus ATAC-seq, separate libraries",human,MS / Ctrl,library,-,-,authors' annotation,"2,408 OL nuclei (6 usable blinded libraries)","used only in the cross-channel strip (S7B 4), never for a rank claim"

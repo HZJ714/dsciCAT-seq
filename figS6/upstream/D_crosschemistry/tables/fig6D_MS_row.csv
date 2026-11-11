@@ -1,0 +1,4 @@
+tech,trait,d1_rna,d1_atac,cliff_rna,cliff_atac,rank_rna_raw,rank_rna_adj,rank_atac_raw,rank_atac_adj,offdiag_z,offdiag_rank,ms_counterexample_reproduced
+dsciCAT-seq (own),PASS_Multiple_sclerosis,0.39714827399999997,-0.1533229775,0.2022910735855304,-0.05216663059623494,12,7,41,37,2.482894630615755,2,True
+10x Multiome,PASS_Multiple_sclerosis,0.6607533999999999,-0.473489125,0.36558538404175983,-0.1504971414367387,9,4,51,49,2.6227205588320888,1,True
+HT-scCAT-seq,PASS_Multiple_sclerosis,0.33899781500000004,0.064155245,0.2320508842693143,0.016289171579273953,20,11,44,41,0.8921805868532344,13,True

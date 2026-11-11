@@ -1,0 +1,7 @@
+channel,comparison,stat,value,P,n,source
+RNA,rank_delta1 vs rank_zMOL6,Spearman rho over 74 trait ranks,0.6825,2.1203676900838323e-11,74,computed here
+RNA,rank_delta1 vs rank_dz,Spearman rho over 74 trait ranks,0.8844,1.5718762055612964e-25,74,computed here
+RNA,rank_zMOL6 vs rank_dz,Spearman rho over 74 trait ranks,0.8679,1.4315658684763642e-23,74,computed here
+ATAC(gene score),rank_delta1 vs rank_zMOL6,Spearman rho over 74 trait ranks,0.0477,0.686335450645678,74,computed here
+ATAC(gene score),rank_delta1 vs rank_dz,Spearman rho over 74 trait ranks,0.3812,0.0008062367680443,74,computed here
+ATAC(gene score),rank_zMOL6 vs rank_dz,Spearman rho over 74 trait ranks,0.9015,6.735818819454313e-28,74,computed here

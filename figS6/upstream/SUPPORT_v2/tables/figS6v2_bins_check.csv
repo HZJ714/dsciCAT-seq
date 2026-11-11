@@ -1,0 +1,2 @@
+item,delivered_gridsize_15,delivered_gridsize_25,delivered_gridsize_40,redrawn_gridsize_15,redrawn_gridsize_40,source,note
+hexbin bin counts,147,362,509,150,645,figures/FINAL_SET_v2_20261028/Figure_S6.pdf panel E (delivered labels),"counts depend on the axes aspect ratio, not on the data; NOT printed on the new cell. No rho for the gridded views is delivered anywhere -> Table S6 row says 'not delivered'"

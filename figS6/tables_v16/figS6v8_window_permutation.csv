@@ -1,0 +1,20 @@
+stat,value,source
+"MS lead SNPs (p<=5e-8, hg38)",178,GWAS Catalog PMID 31604244 via ms_locus_overlap.load_ms_snps
+window half-width (kb),500,ms_locus_overlap.WINDOW_KB
+universe: protein-coding genes (GENCODE v45 basic),20020,<work>/FY/oligo/scdrs_ms_out/gencode.v45.basic.annotation.gtf.gz
+genes inside any window,2071,computed here
+background window rate (%),10.345,computed here
+platform genes (denominator),331,<work>/FY/oligo/scdrs_ms_out/genes_of_interest.txt
+historical hits reproduced,38,FY/oligo/scdrs_ms_out/ms_locus_overlap_table.csv
+hits only in recompute,none,computed here
+hits only in historical table,none,computed here
+platform genes in window (observed count),38,computed here
+observed (%),11.48,computed here
+Fisher OR,1.1263,computed here (2x2 platform vs universe)
+Fisher P,0.46722132824528967,computed here
+permutation draws,10000,"computed here, seed=20261104"
+permutation mean count,34.3261,computed here
+permutation 2.5%% count,24.0,computed here
+permutation 97.5%% count,45.0,computed here
+"permutation P (one-sided, observed vs null)",0.27677232276772323,computed here
+observed (%) in null units,11.48,for the marker on the panel

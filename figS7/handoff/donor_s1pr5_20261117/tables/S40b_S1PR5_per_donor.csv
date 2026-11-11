@@ -1,0 +1,12 @@
+donor,OL_pct,binding_group,binding_pct,n_binding,fold,rule_1pp_1p5x
+ms1,9.63,VASC,3.52,426,2.73,True
+ms10,12.49,LYM,11.11,9,1.12,False
+ms11,3.17,VASC,2.68,410,1.18,False
+ms12,8.32,VASC,3.31,121,2.52,True
+ms15,5.2,NEU,4.22,237,1.23,False
+ms16,9.76,MG,3.73,2441,2.62,True
+ms4,5.93,VASC,2.26,709,2.63,True
+ms5,9.98,MG,1.23,1875,8.13,True
+ms6,12.34,VASC,4.65,473,2.65,True
+ms7,7.59,NEU,6.67,15,1.14,False
+ms8,8.17,LYM,6.45,31,1.27,False

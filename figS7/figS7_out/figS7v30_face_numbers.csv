@@ -1,0 +1,39 @@
+panel,on_face,source_table,source_row
+A,2,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_raw_A2 = 2 (MS row, as computed)"
+A,4,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_raw_A3 = 4 (MS row, as computed)"
+A,7,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_raw_A4 = 7 (MS row, as computed)"
+A,2,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_raw_A7 = 2 (MS row, as computed)"
+A,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_adj_A2 = 1 (MS row, size trend removed)"
+A,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_adj_A3 = 1 (MS row, size trend removed)"
+A,3,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_adj_A4 = 3 (MS row, size trend removed)"
+A,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,"PASS_Multiple_sclerosis rank_adj_A7 = 1 (MS row, size trend removed)"
+C,2,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,MS rank on the plotted RNA column (A7) = 2
+C,36,A6_GSE231584_atac_v1/tables/delta1_vs_peakdomain_allchannels.csv,"MS rank on the plotted ATAC column (median_groupdiff) = 36; the donor-paired table says 21 and the size-matched series says 36, and the face must show the plotted series"
+C,0.722,SUPPORT_v1/tables/figS7c_crosschannel_pairs.csv,pair GSE231585 ↔ GSE231584(snATAC): rho_raw (recomputed from the plotted columns above)
+C,0.137,SUPPORT_v1/tables/figS7c_crosschannel_pairs.csv,same pair: rho_adj after residualising both channels on peak-domain size
+C,0.24,SUPPORT_v1/tables/figS7c_crosschannel_pairs.csv,same pair: P_adj printed as 'P 0.24'
+D,0.248,SUPPORT_v1/tables/S7_mouse_same_nucleus_delta1.json,spearman_rho over the 74 same-nucleus traits (recomputed from the CSV)
+D,0.033,SUPPORT_v1/tables/S7_mouse_same_nucleus_delta1.json,"spearman_p, printed as 'P %.2g'"
+D,11,SUPPORT_v1/tables/S7_mouse_same_nucleus_delta1.csv,MS rank on the plotted RNA column = 11 (json says rna 11 / atac 36)
+D,36,SUPPORT_v1/tables/S7_mouse_same_nucleus_delta1.csv,MS rank on the plotted ATAC column = 36 (json says rna 11 / atac 36)
+F,"1,242",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Astro: nuclei in the column = the denominator every % in that column is taken over
+F,242,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population COPs: nuclei in the column = the denominator every % in that column is taken over
+F,836,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Endo: nuclei in the column = the denominator every % in that column is taken over
+F,207,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population ImOlGs: nuclei in the column = the denominator every % in that column is taken over
+F,423,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Immune: nuclei in the column = the denominator every % in that column is taken over
+F,796,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Micro/Mac: nuclei in the column = the denominator every % in that column is taken over
+F,"5,031",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Neuron: nuclei in the column = the denominator every % in that column is taken over
+F,352,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population OPCs: nuclei in the column = the denominator every % in that column is taken over
+F,"1,129",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Oligo1: nuclei in the column = the denominator every % in that column is taken over
+F,"1,839",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Oligo2: nuclei in the column = the denominator every % in that column is taken over
+F,775,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Oligo3: nuclei in the column = the denominator every % in that column is taken over
+F,"1,579",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Oligo4: nuclei in the column = the denominator every % in that column is taken over
+F,"1,167",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Oligo5: nuclei in the column = the denominator every % in that column is taken over
+F,"1,484",A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Oligo6: nuclei in the column = the denominator every % in that column is taken over
+F,697,A3_GSE118257_v1/tables/A3_GSE118257_target_stats.csv,population Pericyte/SMC: nuclei in the column = the denominator every % in that column is taken over
+G,7/8,S41_summary_by_cohort.csv,GSE118257: rule met / donors evaluable
+G,7/8,S41_summary_by_cohort.csv,GSE231585: rule met / donors evaluable
+G,8/11,S41_summary_by_cohort.csv,GSE301908: rule met / donors evaluable
+G,+1.0,S41_S1PR5_per_donor.csv,margin arm of the frozen rule (margin_pp >= 1.0 AND (fold >= 1.5 OR binding population = 0)); re-derived here from all 27 evaluable donors and matched to the rule column
+RB,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,rank scale lower end
+RB,74,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv,rank scale upper end = n traits in the sweep = 74

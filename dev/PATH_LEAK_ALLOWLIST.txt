@@ -1,0 +1,22 @@
+# Files allowed to contain absolute author-machine paths
+# One relative path per line; # starts a comment. A line without a reason is a bug.
+
+# port_paths.py works by using machine paths as *search strings*: its MAP keys are those
+# prefixes themselves, so removing them would make the tool unable to find anything.
+# It only rewrites text - it never opens those paths. This is the whole-repo cleaning
+# tool (2026-11-11 run: 1236 rewrites) and it must keep working for future syncs.
+00_Figure_Tools/port_paths.py
+
+# The gate itself must contain the machine-path/identity patterns it looks for, and the
+# identity token list is by definition the list of strings it forbids. Both are inspection
+# only - neither reads nor writes those paths.
+dev/preflight_checks.py
+dev/identity_tokens.txt
+
+# dev/make_table_S6_v13.py builds the publishable ledger by *searching* for the internal
+# vocabulary and machine paths (its BANNED regex carries those literals as search strings).
+# It never opens such a path: it only rewrites the ledger text. Exempting it is what lets the
+# same words be forbidden everywhere else.
+dev/make_table_S6_v13.py
+# G1 的结构模式清单必然含 data-users / home 这类形态串，它自己不是泄漏。
+dev/identity_tokens.example.txt

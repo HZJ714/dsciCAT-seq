@@ -1,0 +1,10 @@
+{
+ "n_nuclei": 14928,
+ "n_libs": 25,
+ "n_traits": 74,
+ "spearman_rho": 0.24836727138096995,
+ "spearman_p": 0.03286585657683642,
+ "ms_rank_rna": 11,
+ "ms_rank_atac": 36,
+ "seed_note": "same nuclei, same cellType labels, same gene sets in both channels"
+}

@@ -1,0 +1,7 @@
+n_nuclei,view_a,view_b,n_common_pixels,spearman_rho_raster,P_raster,spearman_rho_nearesthex,n_hex_15,n_hex_25,n_hex_40,definition
+5962,single_cell,15,17247,0.1995,2.183657730496663e-154,0.219,153,396,931,"hexbin mean per cell (mincnt=1); views resampled to a common 160x160 raster over the UMAP extent (linear interpolation, single-nucleus view = nearest) before Spearman"
+5962,single_cell,25,17247,0.2357,2.0075620625019168e-216,0.2577,153,396,931,"hexbin mean per cell (mincnt=1); views resampled to a common 160x160 raster over the UMAP extent (linear interpolation, single-nucleus view = nearest) before Spearman"
+5962,single_cell,40,17247,0.2984,0.0,0.4259,153,396,931,"hexbin mean per cell (mincnt=1); views resampled to a common 160x160 raster over the UMAP extent (linear interpolation, single-nucleus view = nearest) before Spearman"
+5962,15,25,17247,0.6962,0.0,0.4625,153,396,931,"hexbin mean per cell (mincnt=1); views resampled to a common 160x160 raster over the UMAP extent (linear interpolation, single-nucleus view = nearest) before Spearman"
+5962,15,40,17247,0.652,0.0,0.3787,153,396,931,"hexbin mean per cell (mincnt=1); views resampled to a common 160x160 raster over the UMAP extent (linear interpolation, single-nucleus view = nearest) before Spearman"
+5962,25,40,17247,0.6896,0.0,0.4938,153,396,931,"hexbin mean per cell (mincnt=1); views resampled to a common 160x160 raster over the UMAP extent (linear interpolation, single-nucleus view = nearest) before Spearman"

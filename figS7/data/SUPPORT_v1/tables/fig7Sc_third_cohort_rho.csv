@@ -1,0 +1,3 @@
+quantity,value,P,source,method
+"rho(d1, d2A) GSE301908 counts, 12 matched traits",-0.8181818181818183,0.0011431050868040604,A4_GSE301908_v1/tables/trait_sweep_delta2_GSE301908_COUNTS.csv,Spearman over the delivered rows
+"rho(d1, d2B) GSE301908 counts, 12 matched traits",-0.7062937062937064,0.010245193941127854,A4_GSE301908_v1/tables/trait_sweep_delta2_GSE301908_COUNTS.csv,Spearman over the delivered rows

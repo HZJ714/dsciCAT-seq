@@ -1,0 +1,7 @@
+item,value
+cross-channel rho (raw),0.8190892262125138
+noise ceiling sqrt(relRNA*relATAC),0.8776496611551998
+attenuation-corrected rho,0.9332758416774112
+independent-nucleus-halves rho (median),0.784924102184376
+MS off-diagonal residual z,2.0901380089869286
+MS off-diagonal rank of 74,1.0

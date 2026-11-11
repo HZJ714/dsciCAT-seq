@@ -1,0 +1,48 @@
+quantity,value,source,column,note
+"cross-arm rho, RNA, own vs 10x (on plotted Delta1)",0.953617,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,d1_rna by tech,rho of the two plotted columns; n = 74 traits
+"cross-arm rho, RNA, own vs 10x (on n_peak-adjusted ranks)",0.957645,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,rank_rna_adj by tech,"the plan's quotable form (rank concordance); printed in Table S6, not on the cell"
+"cross-arm rho, RNA, own vs HT (on plotted Delta1)",0.905516,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,d1_rna by tech,rho of the two plotted columns; n = 74 traits
+"cross-arm rho, RNA, own vs HT (on n_peak-adjusted ranks)",0.910078,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,rank_rna_adj by tech,"the plan's quotable form (rank concordance); printed in Table S6, not on the cell"
+"cross-arm rho, RNA, 10x vs HT (on plotted Delta1)",0.900807,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,d1_rna by tech,rho of the two plotted columns; n = 74 traits
+"cross-arm rho, RNA, 10x vs HT (on n_peak-adjusted ranks)",0.912773,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,rank_rna_adj by tech,"the plan's quotable form (rank concordance); printed in Table S6, not on the cell"
+"cross-arm rho, ATAC, own vs 10x (on plotted Delta1)",0.607938,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,d1_atac by tech,rho of the two plotted columns; n = 74 traits
+"cross-arm rho, ATAC, own vs 10x (on n_peak-adjusted ranks)",0.614543,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,rank_atac_adj by tech,"the plan's quotable form (rank concordance); printed in Table S6, not on the cell"
+"cross-arm rho, ATAC, own vs HT (on plotted Delta1)",0.528323,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,d1_atac by tech,rho of the two plotted columns; n = 74 traits
+"cross-arm rho, ATAC, own vs HT (on n_peak-adjusted ranks)",0.525716,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,rank_atac_adj by tech,"the plan's quotable form (rank concordance); printed in Table S6, not on the cell"
+"cross-arm rho, ATAC, 10x vs HT (on plotted Delta1)",0.46873,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,d1_atac by tech,rho of the two plotted columns; n = 74 traits
+"cross-arm rho, ATAC, 10x vs HT (on n_peak-adjusted ranks)",0.488012,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,rank_atac_adj by tech,"the plan's quotable form (rank concordance); printed in Table S6, not on the cell"
+"rho(n_hit_atac, rank_atac_adj), own",0.010266,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,n_hit_atac vs rank_atac_adj,"confound check, receipt 2.3 'must be on the figure or in the ledger'"
+"rho(n_hit_atac, rank_atac_adj), 10x",0.004563,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,n_hit_atac vs rank_atac_adj,"confound check, receipt 2.3 'must be on the figure or in the ledger'"
+"rho(n_hit_atac, rank_atac_adj), HT",0.002489,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,n_hit_atac vs rank_atac_adj,"confound check, receipt 2.3 'must be on the figure or in the ledger'"
+n_hit_atac min over 74 traits x 3 arms,490.0,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,min(n_hit_atac),
+n_hit_atac max over 74 traits x 3 arms,582.0,D_crosschemistry/tables/fig6D_delta1_74traits_per_tech.csv,max(n_hit_atac),
+noise ceiling = sqrt(rna_within x atac_within) from T5,0.87765,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,sqrt(median rna_within_channel x atac_within_channel),self-consistent with the ledger's 0.878 (receipt 2.2)
+observed / ceiling,0.933276,T5 + T4b,0.819 / ceiling,percent on the cell
+"T5 split-half rho, rna_within_channel",0.895268,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,median_split_half_rho,
+"T5 split-half IQR lo/hi, rna_within_channel",0.884702,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q25,
+"T5 split-half IQR hi, rna_within_channel",0.90836,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q75,
+"T5 split-half rho, atac_within_channel",0.860378,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,median_split_half_rho,
+"T5 split-half IQR lo/hi, atac_within_channel",0.843606,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q25,
+"T5 split-half IQR hi, atac_within_channel",0.869204,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q75,
+"T5 split-half rho, xchan_half1_vs_half2",0.784924,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,median_split_half_rho,
+"T5 split-half IQR lo/hi, xchan_half1_vs_half2",0.764154,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q25,
+"T5 split-half IQR hi, xchan_half1_vs_half2",0.796638,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q75,
+"T5 split-half rho, xchan_same_half",0.776809,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,median_split_half_rho,
+"T5 split-half IQR lo/hi, xchan_same_half",0.749626,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q25,
+"T5 split-half IQR hi, xchan_same_half",0.793469,O1_own_multiome_paired/tables/T5_split_half_reliability.csv,q75,
+RNA/ATAC axis-contrast ratio min,3.344464,M2b_authoranno_v1/tables/M2b_per_mouse.csv,min(rna/atac),
+RNA/ATAC axis-contrast ratio median,7.001954,M2b_authoranno_v1/tables/M2b_per_mouse.csv,median(rna/atac),
+RNA/ATAC axis-contrast ratio max,14.774938,M2b_authoranno_v1/tables/M2b_per_mouse.csv,max(rna/atac),
+"nuclei plotted, nucleus-level scatter",5962.0,O1_own_multiome_paired/tables/cell_level_table.csv,n_rows,
+per-nucleus rho for MS (nucleus-level ladder rung),0.078593,O1_own_multiome_paired/tables/T2_MS_per_nucleus_rna_vs_atac.csv,"rho_raw, PASS_Multiple_sclerosis",
+mouse-level rho / perm P (ladder rung),0.47162,M2b_authoranno_v1/tables/M2b_crosschannel.csv,spearman_rho,perm P = 0.049 in same row
+"state-level 6-point rho, Multiple_sclerosis",-0.1429,FIG6_v17/tables/fig6C_sixpoint_all74.csv,rho,
+"state-level 6-point P, Multiple_sclerosis",0.7872,FIG6_v17/tables/fig6C_sixpoint_all74.csv,P,
+"state-level 6-point rho, Schizophrenia",0.7714,FIG6_v17/tables/fig6C_sixpoint_all74.csv,rho,
+"state-level 6-point P, Schizophrenia",0.0724,FIG6_v17/tables/fig6C_sixpoint_all74.csv,P,
+"state-level 6-point rho, HEIGHT",0.9429,FIG6_v17/tables/fig6C_sixpoint_all74.csv,rho,
+"state-level 6-point P, HEIGHT",0.0048,FIG6_v17/tables/fig6C_sixpoint_all74.csv,P,
+traits whose state-level rho is NOT delivered,71.0,D_crosschemistry/tables/fig6D_subtype_6pt.csv minus FIG6_v17/tables/fig6C_sixpoint_all74.csv,n_rows(D) - n_rows(C),printed in S6d as the disclosure line
+"cross-channel rho_adj, dsciCAT-seq (own)",0.726146,D_crosschemistry/tables/fig6D_crosschem_ladder.csv,rho_adj,ladder_reproduced = True
+"cross-channel rho_adj, 10x Multiome",0.762695,D_crosschemistry/tables/fig6D_crosschem_ladder.csv,rho_adj,ladder_reproduced = True
+"cross-channel rho_adj, HT-scCAT-seq",0.518104,D_crosschemistry/tables/fig6D_crosschem_ladder.csv,rho_adj,ladder_reproduced = False

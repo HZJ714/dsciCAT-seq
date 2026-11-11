@@ -1,0 +1,92 @@
+# ── 大二进制数据（原始数据已声明在 CNGBdb，CNP0010263，不入仓库）──
+*.h5ad
+*.h5
+*.RDS
+*.rds
+*.npy
+*.npz
+
+# ── 上游分析的大中间文件 ──
+*.mtx
+*.mtx.gz
+*.bam
+*.bai
+*.fragments.tsv.gz
+
+# ── Python / Jupyter 缓存 ──
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ── 运行 notebook 时 R 的临时产物 ──
+Rplots.pdf
+
+# ── 系统文件 ──
+.DS_Store
+
+# ── ArchR 运行日志（重跑 notebook 时自动重建）──
+ArchRLogs/
+
+# UCSC liftOver chain: downloadable reference, pinned by md5 in figS6/README.md (70 MB, do not version)
+figS6/figS6_out/mm10ToHg38.over.chain.gz
+
+# ── 2026-11-11 推送前整理追加 ──
+# 上一代产物留档目录（只保留 README.md 说明，二进制不入树）
+_superseded*/
+!*/_superseded_20261023/README.md
+# 生成日志（每次重跑自动重建）
+regen.log
+# conda/pickle 大对象与可再生的大 PDF
+*.pkl
+figS5/figS5_out/figS5c_nrxn3_locus.pdf
+fig3/fig3_out/joint_meta.csv.gz
+figS2/figS2_out/S2a_batch_shadow_facets.pdf
+# 数据挂钩目录（真身在分析盘，用 data/link_data.sh 挂）
+fig5/data/*
+figS5/data/*
+!fig5/data/link_data.sh
+!fig5/data/README.md
+!figS5/data/link_data.sh
+!figS5/data/README.md
+
+# ── 2026-11-24 推送前整理追加 ──
+# dsciCAT 的 hex barcode 全表（75 MB，2,359,296 行）：仓库内**没有任何脚本读它**，
+# 只有 barcodes/README.md 提了一句。作者决定 ②：不入 git（如要公开，走 gzip/LFS 外链）。
+00_Preprocessing/dsciCAT_workflow/barcodes/hex_barcode_map.tsv
+
+# ── 2026-11-25 定稿版收敛（作者口径：只推当前定稿版，旧版留本环境备用）────────
+# 与 11-11 那次一致的做法（见 dev/TIDY_RECEIPT_20261111.md §4）：归档/备份目录
+# 只保留 README.md 作为"这里曾有什么、为什么被取代"的指针，正文与图面不入 git。
+*/_archive_*/*
+!*/_archive_*/README.md
+figS6/tables_v16_pre_log1p_backup_20261118/
+dev/backups/
+# Figure S6 的 v10/v11 交付面（现行 S6 = figS6_out/ 的 v16/v18 面板 + Table_S6_v13）；
+# 只有 Table_S7.pdf 仍是现行交付件，留库。
+figS6/fig6_out/*
+!figS6/fig6_out/Table_S7.pdf
+# 旧版图注快照（现行图注 = legends/fig6_v36_ / figS6_v16_ / fig7_v17_ 与 figS7/LEGEND_S7_final.md）
+legends/fig6_v21_legend_final.md
+legends/fig7_v13_legend_final.md
+legends/figS6_v10_legend_final.md
+legends/figS7_v29_legend_final.md
+# 内部往来评审记录（无脚本/文档引用）
+figS7/handoff/REVIEW_S7_RELAYOUT_20261117.md
+# 拼版页光栅不入库（作者：拼图的不需要）；面板 PDF + compose 脚本入库，读者可自行重拼
+fig6/fig6_out/fig6_composed_v21_600dpi.png
+fig6/fig6_out/Figure_6_v36_ABC_row.png
+figS6/figS6_out/Figure_S6_v16.png
+
+# 旧版图注快照（v11 S6 面已随旧版留在本工作树）
+figS6/LEGEND_S6_v11.md
+# v13 轮的草稿拼版脚本：读的是已不存在的 fig7 v13 / figS7 v22 面板路径（本工作树也没有了），
+# 现行管线是 figS6v16_/figS6v18_；留盘不入 git。
+figS6/assembly/c1_new_panel_figs.py
+figS6/assembly/c2_compose_drafts.py
+# 拼版页/整页合成图一律不入库（作者口径 2026-11-25：仓库只给单面板 + 生成代码，
+# 读者/排版方自行拼版）。生成拼版页的代码仍然入库。
+fig7/fig7_out/fig7_composed_v17d_2col.pdf
+figS7/figS7_out/figS7_v30.pdf
+
+# 本工作环境的逐字身份清单（含真实姓名/账号/项目号，绝不入库）
+dev/identity_tokens.txt

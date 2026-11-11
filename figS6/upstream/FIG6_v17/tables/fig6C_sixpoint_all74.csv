@@ -1,0 +1,4 @@
+trait,n_points,rho,P,mean_rna,mean_atac
+UKB_460K.body_HEIGHTz,6,0.9429,0.0048,-0.0407,-0.022
+PASS_Schizophrenia_Pardinas2018,6,0.7714,0.0724,0.0972,0.1474
+PASS_Multiple_sclerosis,6,-0.1429,0.7872,-0.0857,-0.0014

@@ -1,0 +1,7 @@
+EL14 cells=4029 types=22 genes=31263 hvg=3000 loaded 0.5 min
+FY13 cells=17093 types=32 genes=31263 hvg=3000 loaded 1.1 min
+FY14 cells=30350 types=33 genes=31263 hvg=3000 loaded 1.5 min
+common genes 31263 | shared HVG used 5597
+EL14 ATAC from Figure 3 cache: 4029 / 4029 cells
+FY13 ATAC from Figure 3 cache: 17093 / 17093 cells
+FY14 ATAC from Figure 3 cache: 30350 / 30350 cells

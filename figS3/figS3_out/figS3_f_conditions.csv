@@ -1,0 +1,10 @@
+panel,condition,kind,platform,label,n_seed,n_hit,lineage_cells,cells_lo,cells_hi,bmp4,gpr17
+F,FY13_lineage_to_EL14N,part,dsciCAT-seq,lineage → 144,20,0,144,0,0,,
+F,FY13_lineage_to_HTpooledN,part,dsciCAT-seq,lineage → 571,20,6,571,14,20,0.5247473302075389,0.7118040059517394
+F,FY13_strict_4029nuclei,part,dsciCAT-seq,"whole brain → 4,029",20,7,706,12,21,0.558935390504341,0.585123060401403
+F,FY13_wholebrain_to_4029n,part,dsciCAT-seq,proxy: lineage → 694,20,9,694,10,19,0.584473771554416,0.69302331035037
+F,FY13_full_lineage,full,dsciCAT-seq,"50k full · 17,093 nuclei",1,1,2944,65,65,0.523634264574258,0.81197168536179
+F,FY14_full_lineage,full,dsciCAT-seq,"100k full · 30,350 nuclei",1,1,4557,141,141,0.360820924267416,0.876593805958171
+F,EL14_full_lineage,none,HT-scCAT-seq,"single lib · 4,029 nuclei",1,0,144,0,0,,
+F,HTp_full_lineage,full,HT-scCAT-seq,"4 lib pooled · 14,762 nuclei",1,1,571,59,59,0.622853744183439,1.16786339894393
+F,HTpooled_lineage_to_EL14N,part,HT-scCAT-seq,pooled lineage → 144,20,5,144,16,27,0.55145678819028,1.05231439597602

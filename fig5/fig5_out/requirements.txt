@@ -1,0 +1,14 @@
+python>=3.9.12
+numpy==1.26.0
+pandas==1.5.0
+scipy==1.10.1
+matplotlib==3.8.0
+scanpy==1.9.5
+anndata==0.10.2
+pyscenic==0.12.1+6.g31d51a1
+scenicplus==1.0.1.dev4+ge4bdd9f
+ctxcore==0.2.0
+plotnine==0.12.4
+dill==0.3.7
+networkx==3.2
+statsmodels==0.14.0

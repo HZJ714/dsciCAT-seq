@@ -1,0 +1,3 @@
+EL14 n=76 -> 1 cluster(s) at res 0.5 (76), Gpr17 mean 0.67
+FY13 n=60 -> 1 cluster(s) at res 0.5 (60), Gpr17 mean 0.71
+FY14 n=133 -> 2 cluster(s) at res 0.5 (81,52), Gpr17 mean 0.93

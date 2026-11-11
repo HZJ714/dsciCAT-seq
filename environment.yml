@@ -1,0 +1,31 @@
+# environment.yml（提案，工单 §4-2：换成真实可复现的环境名 + 附环境定义）
+# 由分析环境导出并中性化：环境名取 dsci-repro；全文无 prefix、无绝对路径、无个人账号/机器名。
+# 逐包完整清单见同目录 conda_pkgs_dsci-repro.explicit（231 条 conda + 49 条 pip）。
+name: dsci-repro
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.23
+  - numpy=1.26.4          # 实测可导入版本（conda 记录为 2.0.2，被 pip 覆盖，以导入值为准）
+  - scipy=1.13.1
+  - pandas=2.3.1
+  - anndata=0.10.9
+  - scanpy=1.10.3
+  - scikit-learn=1.6.1
+  - statsmodels=0.14.5
+  - seaborn=0.13.2
+  - matplotlib-base=3.9.4
+  - umap-learn=0.5.9.post2
+  - leidenalg=0.10.2
+  - python-igraph=0.11.9
+  - networkx=3.2.1
+  - palantir=1.4.2
+  - r-base=4.4.3
+  - r-ggplot2
+  - r-mgcv
+  - rpy2=3.6.2
+  - pip:
+    - cellrank==2.0.4
+    - ipykernel==6.31.0
+    # 其余 49 条见 requirements-dsci-repro.txt

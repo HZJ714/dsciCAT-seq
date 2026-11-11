@@ -1,0 +1,10 @@
+pdf,key,value,printed,source
+S6f_unit_violins_v11.pdf,F.nucleus rho,0.0786,0.079,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.library_FY13 rho,0.8119,0.812,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.library_FY14 rho,0.7288,0.729,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.mouse rho,0.4716,0.472,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.trait_O1 rho,0.8191,0.819,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.trait_O1_nhit rho,0.8259,0.826,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.trait_O1_npeak rho,0.7084,0.708,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.trait_O1_wide rho,0.4245,0.424,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv
+S6f_unit_violins_v11.pdf,F.trait_D_own rho,0.9202,0.920,./figures/routeA_out/SUPPORT_v2/tables_v11/figS6v11_unit_summary_ext.csv

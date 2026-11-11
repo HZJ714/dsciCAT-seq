@@ -1,0 +1,102 @@
+tile,item,value,print,source
+"A a1 ρ(ln n_peak,Δ1)",GSE277430,-0.8377403757384475,-0.84,fig7Sb_matched_window.csv
+"A a2 ρ(ln n_peak,Δ1 str)",GSE277430,0.09324023132600172,+0.09,seven4 residual of robust z
+A a3 MS tight-pool rank,GSE277430,1,1 of 16,"seven4, 15 nearest |dln n_peak|"
+A a3 tight-pool span,all,1.1193065941536375,1.12x,seven4
+C mech observed lead,GSE277430,0.17685512009511584,+0.18,seven4 (robust z PLATELET − MS)
+C mech size-predicted lead,GSE277430,0.8466952483433949,+0.85,fit slope x dln n_peak
+"A a1 ρ(ln n_peak,Δ1)",GSE118257,-0.69121578095772,-0.69,fig7Sb_matched_window.csv
+"A a2 ρ(ln n_peak,Δ1 str)",GSE118257,0.032684433058526974,+0.03,seven4 residual of robust z
+A a3 MS tight-pool rank,GSE118257,1,1 of 16,"seven4, 15 nearest |dln n_peak|"
+A a3 tight-pool span,all,1.1193065941536375,1.12x,seven4
+C mech observed lead,GSE118257,0.4746116272030976,+0.47,seven4 (robust z PLATELET − MS)
+C mech size-predicted lead,GSE118257,0.6995711533273847,+0.70,fit slope x dln n_peak
+"A a1 ρ(ln n_peak,Δ1)",GSE301908,-0.778443379831632,-0.78,fig7Sb_matched_window.csv
+"A a2 ρ(ln n_peak,Δ1 str)",GSE301908,0.11321816526163964,+0.11,seven4 residual of robust z
+A a3 MS tight-pool rank,GSE301908,1,1 of 16,"seven4, 15 nearest |dln n_peak|"
+A a3 tight-pool span,all,1.1193065941536375,1.12x,seven4
+C mech observed lead,GSE301908,0.5688601275497625,+0.57,seven4 (robust z PLATELET − MS)
+C mech size-predicted lead,GSE301908,0.8409050208904871,+0.84,fit slope x dln n_peak
+"A a1 ρ(ln n_peak,Δ1)",GSE231585,-0.8732978400671849,-0.87,fig7Sb_matched_window.csv
+"A a2 ρ(ln n_peak,Δ1 str)",GSE231585,0.01889684484942475,+0.02,seven4 residual of robust z
+A a3 MS tight-pool rank,GSE231585,1,1 of 16,"seven4, 15 nearest |dln n_peak|"
+A a3 tight-pool span,all,1.1193065941536375,1.12x,seven4
+C mech observed lead,GSE231585,0.21420136487898178,+0.21,seven4 (robust z PLATELET − MS)
+C mech size-predicted lead,GSE231585,1.0425193100947094,+1.04,fit slope x dln n_peak
+B table MS raw,GSE277430,2,2,seven4_confound_ALL_cohorts.csv
+B table MS raw,GSE118257,4,4,seven4_confound_ALL_cohorts.csv
+B table MS raw,GSE301908,7,7,seven4_confound_ALL_cohorts.csv
+B table MS raw,GSE231585,2,2,seven4_confound_ALL_cohorts.csv
+B table MS adj,GSE277430,1,1,seven4_confound_ALL_cohorts.csv
+B table MS adj,GSE118257,1,1,seven4_confound_ALL_cohorts.csv
+B table MS adj,GSE301908,3,3,seven4_confound_ALL_cohorts.csv
+B table MS adj,GSE231585,1,1,seven4_confound_ALL_cohorts.csv
+B table MS mat,GSE277430,1,1,seven4_confound_ALL_cohorts.csv
+B table MS mat,GSE118257,2,2,seven4_confound_ALL_cohorts.csv
+B table MS mat,GSE301908,4,4,seven4_confound_ALL_cohorts.csv
+B table MS mat,GSE231585,1,1,seven4_confound_ALL_cohorts.csv
+B table PLATELET raw,GSE277430,1,1,seven4_confound_ALL_cohorts.csv
+B table PLATELET raw,GSE118257,2,2,seven4_confound_ALL_cohorts.csv
+B table PLATELET raw,GSE301908,1,1,seven4_confound_ALL_cohorts.csv
+B table PLATELET raw,GSE231585,1,1,seven4_confound_ALL_cohorts.csv
+B table PLATELET adj,GSE277430,11,11,seven4_confound_ALL_cohorts.csv
+B table PLATELET adj,GSE118257,5,5,seven4_confound_ALL_cohorts.csv
+B table PLATELET adj,GSE301908,8,8,seven4_confound_ALL_cohorts.csv
+B table PLATELET adj,GSE231585,7,7,seven4_confound_ALL_cohorts.csv
+B table PLATELET mat,GSE277430,2,2,seven4_confound_ALL_cohorts.csv
+B table PLATELET mat,GSE118257,1,1,seven4_confound_ALL_cohorts.csv
+B table PLATELET mat,GSE301908,3,3,seven4_confound_ALL_cohorts.csv
+B table PLATELET mat,GSE231585,2,2,seven4_confound_ALL_cohorts.csv
+B table AD raw,GSE277430,25,25,seven4_confound_ALL_cohorts.csv
+B table AD raw,GSE118257,41,41,seven4_confound_ALL_cohorts.csv
+B table AD raw,GSE301908,26,26,seven4_confound_ALL_cohorts.csv
+B table AD raw,GSE231585,9,9,seven4_confound_ALL_cohorts.csv
+B table AD adj,GSE277430,18,18,seven4_confound_ALL_cohorts.csv
+B table AD adj,GSE118257,49,49,seven4_confound_ALL_cohorts.csv
+B table AD adj,GSE301908,27,27,seven4_confound_ALL_cohorts.csv
+B table AD adj,GSE231585,12,12,seven4_confound_ALL_cohorts.csv
+B table AD mat,GSE277430,-1,—,seven4_confound_ALL_cohorts.csv
+B table AD mat,GSE118257,-1,—,seven4_confound_ALL_cohorts.csv
+B table AD mat,GSE301908,-1,—,seven4_confound_ALL_cohorts.csv
+B table AD mat,GSE231585,-1,—,seven4_confound_ALL_cohorts.csv
+B table SCZ raw,GSE277430,67,67,seven4_confound_ALL_cohorts.csv
+B table SCZ raw,GSE118257,73,73,seven4_confound_ALL_cohorts.csv
+B table SCZ raw,GSE301908,63,63,seven4_confound_ALL_cohorts.csv
+B table SCZ raw,GSE231585,67,67,seven4_confound_ALL_cohorts.csv
+B table SCZ adj,GSE277430,68,68,seven4_confound_ALL_cohorts.csv
+B table SCZ adj,GSE118257,74,74,seven4_confound_ALL_cohorts.csv
+B table SCZ adj,GSE301908,42,42,seven4_confound_ALL_cohorts.csv
+B table SCZ adj,GSE231585,71,71,seven4_confound_ALL_cohorts.csv
+B table SCZ mat,GSE277430,-1,—,seven4_confound_ALL_cohorts.csv
+B table SCZ mat,GSE118257,-1,—,seven4_confound_ALL_cohorts.csv
+B table SCZ mat,GSE301908,-1,—,seven4_confound_ALL_cohorts.csv
+B table SCZ mat,GSE231585,-1,—,seven4_confound_ALL_cohorts.csv
+"A a3 old ±15% no-model window rank (superseded, not on face)",GSE277430,1,1 of 40 (platelet),fig7Sb_matched_window.csv
+"A a3 old ±15% no-model window rank (superseded, not on face)",GSE118257,1,1 of 40 (platelet),fig7Sb_matched_window.csv
+"A a3 old ±15% no-model window rank (superseded, not on face)",GSE301908,1,1 of 40 (platelet),fig7Sb_matched_window.csv
+"A a3 old ±15% no-model window rank (superseded, not on face)",GSE231585,1,1 of 40 (platelet),fig7Sb_matched_window.csv
+A size row MS,37,37,n_peak_raw descending,seven4
+A size row PLATELET,56,56,n_peak_raw descending,seven4
+A window rows,21–60,40 traits,rows 21–60,fig7Sb_matched_window.csv
+C own,rho_raw,0.8190892262125138,0.819,figS7c_crosschannel_pairs.csv
+C own,rho_adj,0.8233839318770824,0.823,figS7c_crosschannel_pairs.csv
+C unpaired,rho_raw,0.7220584968530173,0.722,figS7c_crosschannel_pairs.csv
+C unpaired,rho_adj,0.1369122547204738,0.137,figS7c_crosschannel_pairs.csv
+C mouse,rho_raw,0.391304347826087,0.391,figS7c_crosschannel_pairs.csv
+D d1 MS rank human RNA,MS,2,2 of 74,same_donor / M3_paired3
+D d1 MS rank human ATAC,MS,21,21 of 74,same_donor / M3_paired3
+D d1 MS rank mouse RNA,MS,2,2 of 74,same_donor / M3_paired3
+D d1 MS rank mouse ATAC,MS,28,28 of 74,same_donor / M3_paired3
+D d2 MS robust z OL,MS,0.177,+0.18,S7_atac_crossaxis_human.csv
+D d2 MS robust z ASTIMM,MS,-0.915,-0.92,S7_atac_crossaxis_human.csv
+D d2 MS robust z NEU,MS,-0.16,-0.16,S7_atac_crossaxis_human.csv
+D d2 MS rank OL,MS,31,31 of 74,S7_atac_crossaxis_human.csv
+D d2 MS rank ASTIMM,MS,65,65 of 74,S7_atac_crossaxis_human.csv
+D d2 MS rank NEU,MS,43,43 of 74,S7_atac_crossaxis_human.csv
+"D d2 rho(d1,d2A)",human,-0.6594446501295815,-0.66,S7_atac_crossaxis_human_full.csv
+"D d2 rho(d1,d2B)",human,-0.6811255090707145,-0.68,S7_atac_crossaxis_human_full.csv
+D d3 rho mouse 74,mouse,0.4737356534616808,0.474,M3_paired3
+D d3 P mouse 74,mouse,2.0151263484838556e-05,2e-05,M3_paired3
+D d4 sd ratio mouse/human/own,all,0.25624946579052243,0.26,M3_paired3
+D d4 sign own/human/mouse,all,55,55/74,T4/same_donor/M3_paired3
+D d4 rho(ln n_peak) mouse,mouse,0.050425768233987395,+0.050,M3_paired3

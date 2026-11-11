@@ -1,0 +1,5 @@
+metric,median_split_half_rho,q25,q75,n_draw,seed,delivered_T5_median_20draw,delta_vs_delivered,note
+rna_within_channel,0.8979933358015547,0.8862273232136244,0.9097889670492407,1000,20261112,0.89527,0.00272,"subsample split-half on the delivered per-nucleus norm_score; shared empirical normalisation, quantifies sampling variability only"
+atac_within_channel,0.863161791928915,0.8453239540910772,0.8785116623472786,1000,20261112,0.86038,0.00278,"subsample split-half on the delivered per-nucleus norm_score; shared empirical normalisation, quantifies sampling variability only"
+xchan_same_half,0.774883376527212,0.7539429840799703,0.793617178822658,1000,20261112,0.77681,-0.00193,"subsample split-half on the delivered per-nucleus norm_score; shared empirical normalisation, quantifies sampling variability only"
+xchan_half1_vs_half2,0.7725731210662716,0.7525212884116992,0.7916327286190297,1000,20261112,0.78492,-0.01235,"subsample split-half on the delivered per-nucleus norm_score; shared empirical normalisation, quantifies sampling variability only"

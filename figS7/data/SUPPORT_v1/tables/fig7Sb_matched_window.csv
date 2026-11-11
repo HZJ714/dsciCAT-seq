@@ -1,0 +1,5 @@
+cohort,study,n_traits,MS_n_peak,window_lo,window_hi,n_in_window,MS_rank_in_window,rho_lnp_vs_d1,rank_raw,rank_adj,source
+A2,GSE277430,74,9357.0,7953.45,10760.55,40,2,-0.8377403757384475,2,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv + D3 confound-check rows
+A3,GSE118257,74,9357.0,7953.45,10760.55,40,3,-0.69121578095772,4,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv + D3 confound-check rows
+A4,GSE301908,74,9357.0,7953.45,10760.55,40,5,-0.778443379831632,7,3,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv + D3 confound-check rows
+A7,GSE231585,74,9357.0,7953.45,10760.55,40,2,-0.8732978400671849,2,1,FIG7_v1/tables/seven4_confound_ALL_cohorts.csv + D3 confound-check rows

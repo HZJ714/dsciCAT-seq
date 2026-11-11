@@ -1,0 +1,27 @@
+orig.ident,n_MOL,n_OPC,group,sex,batch,rule,pass_M2b,reason_excluded,delivered_in_M2b_per_mouse
+Early1,3590,19,EAE,F,B1,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+Early4,1140,103,EAE,M,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+EarlyCtrl2,337,1,Ctrl,F,B3,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+EarlyCtrl3,3106,3,Ctrl,F,B4,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+EarlyCtrl4,6281,374,Ctrl,F,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+EarlyCtrlFemale5,7763,141,Ctrl,F,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+EarlyCtrlMale5,7817,148,Ctrl,M,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+EarlyFemale3,3167,1,EAE,F,B4,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+EarlyFemale5,8772,542,EAE,F,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+EarlyMale3,3392,6,EAE,M,B4,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+EarlyMale5,9947,258,EAE,M,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+Late1,4436,9,EAE,F,B2,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+Late2,1382,85,EAE,M,B5,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+Late3,3900,28,EAE,M,B5,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+Late5,5519,642,EAE,F,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+LateCtrl2,7369,21,Ctrl,F,B5,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+LateCtrl3,5387,30,Ctrl,F,B5,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+LateFemale4,9052,797,EAE,F,B6,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+LateMale4,4387,468,EAE,M,B6,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+Peak2,1451,22,EAE,M,B1,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+Peak3,3049,34,EAE,F,B3,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+Peak5,3351,350,EAE,M,B8,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+PeakCtrl2,2691,12,Ctrl,F,B1,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+PeakCtrl3,1808,4,Ctrl,M,B3,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),False,OPC < 20,False
+PeakFemale4,3608,122,EAE,F,B6,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True
+PeakMale4,2984,277,EAE,M,B6,MOL >= 20 AND OPC >= 20 (M2b_formal_authoranno.py:107),True,-,True

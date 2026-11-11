@@ -1,0 +1,4 @@
+"library","selector","cells","joint_cells","same_cell_set","same_cell_order","rna_counts_equal","atac_counts_equal","rna_genes","rna_genes_joint","atac_peaks","atac_peaks_joint","rna_qc_equal","atac_qc_equal","cell_type_equal","cluster_equal"
+"EL14","ht$batch == 'Cortex_EL14'",4029,4029,TRUE,TRUE,TRUE,TRUE,31263,31263,186321,186321,1,1,0.7585,0.1569
+"FY13","ht$orig.ident == 'dsciCAT-seq-50k'",17093,17093,TRUE,TRUE,TRUE,TRUE,31263,31263,186354,186321,1,0.6612,0.7477,0.3571
+"FY14","ht$orig.ident == 'dsciCAT-seq-100k'",30350,30350,TRUE,TRUE,TRUE,TRUE,31263,31263,186354,186321,1,0.6788,0.8,0.5194

@@ -1,0 +1,8 @@
+unit,n,rho_point,boot_median,ci_lo,ci_hi,B,seed,pairs
+nucleus,5962,0.0786,0.0783,0.0524,0.1029,1000,20261104,per-nucleus pairs (n = 5962)
+library_FY13,74,0.8119,0.8049,0.7273,0.8617,1000,20261104,per-trait Delta1 within library FY13 (n = 74)
+library_FY14,74,0.7288,0.7212,0.6055,0.8132,1000,20261104,per-trait Delta1 within library FY14 (n = 74)
+mouse,18,0.4716,0.4642,-0.0366,0.8442,1000,20261104,per-mouse axis contrasts (n = 18)
+trait_O1,74,0.8191,0.8111,0.7366,0.8664,1000,20261104,O1 same-nucleus Delta1 (n = 74)
+trait_O1_wide,74,0.4245,0.43,0.2117,0.6024,1000,20261104,O1 wide contrast Delta1b (n = 74)
+trait_D_own,74,0.9202,0.9176,0.8483,0.956,1000,20261104,"D-arm own Delta1, rho_raw (n = 74)"

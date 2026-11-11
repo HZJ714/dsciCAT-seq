@@ -1,0 +1,14 @@
+family,variant,rho,P_spearman,perm_null_975,perm_P,unit,n,definition,source
+O1 同核跨通道梯子,raw,0.8191,4.77599999570978e-19,0.2309,0.0004997501249375,74 traits,74,Δ1 = MOL6 − COP/NFOL,O1/tables/T4b_cross_channel_rho_variants.csv
+O1 同核跨通道梯子,depth-residualised,0.8215,3.0716554030822883e-19,0.2217,0.0004997501249375,74 traits,74,Δ1 = MOL6 − COP/NFOL,O1/tables/T4b_cross_channel_rho_variants.csv
+O1 同核跨通道梯子,depth-resid + n_hit-adjusted,0.8307,5.408998561129834e-20,0.2241,0.0004997501249375,74 traits,74,Δ1 = MOL6 − COP/NFOL,O1/tables/T4b_cross_channel_rho_variants.csv
+O1 同核跨通道梯子,n_hit-adjusted only,0.8259,1.3612789228393257e-19,0.2282,0.0004997501249375,74 traits,74,Δ1 = MOL6 − COP/NFOL,O1/tables/T4b_cross_channel_rho_variants.csv
+O1 同核跨通道梯子,sens: (MOL6+MOL2)-(MFOL+COP),0.4245,0.0001637426095384,0.2199,0.0004997501249375,74 traits,74,Δ1b = (MOL6+MOL2) − (MFOL+COP/NFOL),O1/tables/T4b_cross_channel_rho_variants.csv
+O1 分库复现,FY13,0.8119,,0.2692,0.0004997501249375,74 traits,74,Δ1 = MOL6 − COP/NFOL (within one library),O1/tables/L1_by_library.csv
+O1 分库复现,FY14,0.7288,,0.2651,0.0004997501249375,74 traits,74,Δ1 = MOL6 − COP/NFOL (within one library),O1/tables/L1_by_library.csv
+D 同臂跨通道（另一套定义）,dsciCAT-seq (own) rho_raw,0.9202,,,,74 traits,74,Δ1 = Oligo − OPC,D/tables_log1p_20261104/fig6D_crosschem_ladder.csv
+D 同臂跨通道（另一套定义）,dsciCAT-seq (own) rho_adj,0.8959,,,9.999000099990002e-05,74 traits,74,"Δ1 = Oligo − OPC, n_hit 残差化",D/tables_log1p_20261104/fig6D_crosschem_ladder.csv
+D 同臂跨通道（另一套定义）,10x Multiome rho_raw,0.8297,,,,74 traits,74,Δ1 = Oligo − OPC,D/tables_log1p_20261104/fig6D_crosschem_ladder.csv
+D 同臂跨通道（另一套定义）,10x Multiome rho_adj,0.824,,,9.999000099990002e-05,74 traits,74,"Δ1 = Oligo − OPC, n_hit 残差化",D/tables_log1p_20261104/fig6D_crosschem_ladder.csv
+D 同臂跨通道（另一套定义）,HT-scCAT-seq rho_raw,0.6199,,,,74 traits,74,Δ1 = Oligo − OPC,D/tables_log1p_20261104/fig6D_crosschem_ladder.csv
+D 同臂跨通道（另一套定义）,HT-scCAT-seq rho_adj,0.63,,,9.999000099990002e-05,74 traits,74,"Δ1 = Oligo − OPC, n_hit 残差化",D/tables_log1p_20261104/fig6D_crosschem_ladder.csv

@@ -1,0 +1,9 @@
+ht_10x cells=70643 loaded 7.2 min
+EL14 cells=4029 types=22 inset=76 loaded 0.3 min
+FY13 cells=17093 types=32 inset=60 loaded 0.5 min
+FY14 cells=30350 types=33 inset=133 loaded 1.8 min
+derivation check written to fig3_out/fig3_subset_derivation.csv
+EL14 ht_10x barcode match: 4029 / 4029 (100.0%)
+FY13 ht_10x barcode match: 17093 / 17093 (100.0%)
+FY14 ht_10x barcode match: 30350 / 30350 (100.0%)
+cell types (union of 3 libraries): 36

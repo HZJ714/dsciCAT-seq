@@ -1,0 +1,22 @@
+quantity,value,source,column,note
+median state-level rho (D matrices),0.6,D_crosschemistry/tables/fig6D_subtype_6pt.csv,median(rho_6pt),
+share rho_6pt>0 (D matrices),0.9054054054054054,D_crosschemistry/tables/fig6D_subtype_6pt.csv,share(rho_6pt>0),
+per-mouse split-half AUC min,0.952361673414305,M2b_authoranno_v1/tables/M2b_per_mouse.csv,min(auc_test),
+per-mouse split-half AUC max,0.9968282992460156,M2b_authoranno_v1/tables/M2b_per_mouse.csv,max(auc_test),
+per-mouse AUC all >= 0.95 (count),18.0,M2b_authoranno_v1/tables/M2b_per_mouse.csv,count(auc_test>=0.95),
+"per-mouse RNA axis contrast, min",1.0666339,M2b_authoranno_v1/tables/M2b_per_mouse.csv,min(rna_axis_contrast),
+"per-mouse RNA axis contrast, max",2.9648342,M2b_authoranno_v1/tables/M2b_per_mouse.csv,max(rna_axis_contrast),
+"per-mouse ATAC axis contrast, min",0.1899688758850096,M2b_authoranno_v1/tables/M2b_per_mouse.csv,min(atac_axis_contrast),
+"per-mouse ATAC axis contrast, max",0.5105342502593981,M2b_authoranno_v1/tables/M2b_per_mouse.csv,max(atac_axis_contrast),
+mice with both channel axis contrasts > 0,18.0,M2b_authoranno_v1/tables/M2b_per_mouse.csv,count(both > 0),
+median RNA/ATAC axis-contrast ratio,7.001953637834967,M2b_authoranno_v1/tables/M2b_per_mouse.csv,median(rna_axis_contrast / atac_axis_contrast),
+min RNA/ATAC axis-contrast ratio,3.3444641303853264,M2b_authoranno_v1/tables/M2b_per_mouse.csv,min(rna_axis_contrast / atac_axis_contrast),
+max RNA/ATAC axis-contrast ratio,14.774938194080676,M2b_authoranno_v1/tables/M2b_per_mouse.csv,max(rna_axis_contrast / atac_axis_contrast),
+C-side per-trait six-point rho rows delivered,3.0,FIG6_v17/tables/fig6C_sixpoint_all74.csv,n_rows (of 74 traits),
+hit genes <100 kb,3.0,FY/oligo/scdrs_ms_out/ms_locus_overlap_table.csv,count,
+hit genes 100-250 kb,15.0,FY/oligo/scdrs_ms_out/ms_locus_overlap_table.csv,count,
+hit genes >=250 kb,20.0,FY/oligo/scdrs_ms_out/ms_locus_overlap_table.csv,count,
+observed hit rate of MS lead SNPs (+-500 kb),11.5,figures/FINAL_SET_v2_20261028/Figure_S6.pdf,panel B text 'observed 11.5%',"read off delivered art, not recomputed"
+permutation P for the locus overlap,0.26,figures/FINAL_SET_v2_20261028/Figure_S6.pdf,panel B text 'permutation P = 0.26',"read off delivered art, not recomputed"
+hit genes (rows of the delivered overlap table),38.0,FY/oligo/scdrs_ms_out/ms_locus_overlap_table.csv,n_rows,"read off delivered art, not recomputed"
+platform gene denominator for the hit rate,331.0,figures/FINAL_SET_v2_20261028/Figure_S6.pdf,panel B x label '% of 331 genes',"read off delivered art, not recomputed"

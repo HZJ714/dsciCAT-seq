@@ -1,0 +1,1 @@
+pip_freeze_analysis_env_20261120.txt and R_packages_20261120.csv are the canonical environment records (the conda yml export failed and is not included). Container images in the WDLs remain masked; the pinned Python/R records are the authoritative version statement.
